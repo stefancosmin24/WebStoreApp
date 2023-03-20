@@ -29,7 +29,100 @@ a,
 
   #app {
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr 3fr;
     padding: 0 2rem;
   }
+}
+
+body {
+  background-color: rgb(207, 207, 207);
+
+}
+
+.box {
+  background-color: rgb(211, 191, 191);
+  width: 240px;
+  height: 180px;
+  border: 1px solid rgb(0, 87, 128);
+  position: relative;
+  top: 15rem;
+  left: 9rem;
+  border-radius: 1em;
+  padding: 5px;
+  margin: 9px;
+  font-size: 15px;
+  box-shadow: black 5px 15px;
+  background: border-box rgb(255, 255, 255);
+  display: inline-block;
+  color: rgb(0, 0, 0);
+}
+
+button {
+  float: right;
+  background-color: rgb(245, 200, 0);
+  border: 2px solid rgb(0, 0, 0);
+  height: 39px;
+  cursor: pointer;
+  margin-top: 0px;
+  margin-left: 0rem;
+  display: inline;
+  color: rgb(0, 0, 0);
+}
+
+h1 {
+  color: rgb(0, 0, 0);
+}
+
+.disabled {
+  background-color: rgb(56, 55, 51);
+  cursor: not-allowed;
+}
+
+.same2 {
+  position: absolute;
+  background-color: transparent;
+  border: 34px solid transparent;
+  font-size: 0.em;
+}
+
+.same {
+  background-color: transparent;
+  border: 2px solid transparent;
+}
+
+.samebreak {
+  position: relative;
+  background-color: transparent;
+  border: 2px solid transparent;
+  margin-bottom: 2em;
+}
+
+.same3 {
+  position: relative;
+  background-color: transparent;
+  border: 2px solid transparent;
+  display: inline;
+}
+
+.sorty {
+  background-color: transparent;
+ 
+  width: 100px;
+  bottom: -440px;
+  color: rgb(0, 0, 0)
+}
+
+h2 {
+  
+  top: 330px;
+  font-family: Tahoma;
+}
+
+.form-control {
+  float: center;
+  padding: 6px;
+  border: none;
+  margin-top: 4px;
+  margin-right: 6px;
+  font-size: 17px;
 }
